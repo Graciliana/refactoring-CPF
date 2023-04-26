@@ -2,6 +2,13 @@
 
 Este conteúdo é parte do curso Clear e Code e Clean architecture da Branas.io
 
+## Ambiente de desenvolvimento
+
+´´´javascript
+    npm init -y
+    npm install typescript jest @types/jest ts-node ts-jest
+´´´
+
 ## configuração  do projeto do zero
 
 ´´´javascript
@@ -9,7 +16,7 @@ Este conteúdo é parte do curso Clear e Code e Clean architecture da Branas.io
     npx ts-jest config:init
 ´´´
 
-## criar pastas src e teste em seguida 
+## criar pastas src e teste em seguida
 
 ´´´javascript
     npx jest
