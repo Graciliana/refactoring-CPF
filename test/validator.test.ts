@@ -10,8 +10,17 @@ test.each([
 	const isValid = validate(cpf);
 	expect(isValid).toBeTruthy();
 });
-test("Deve testar um cpf inválidos", function () {
-	const isValid = validate("408.302.170-27");
+test.each([
+	"408.302.170-27",
+	"684.053.160",
+	"041.920-03",
+	"611-06",
+	null,
+	undefined,
+	"htg-plo.gra-98"
+	
+])("Deve testar um cpf inválidos", function (cpf) {
+	const isValid = validate(cpf);
 	expect(isValid).toBeFalsy();
 });
 test("Deve testar um cpf inválidos com todos os dígitos iguais", function () {
