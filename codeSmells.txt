@@ -1,0 +1,20 @@
+code smells
+ 1- nomes de variaveis
+  * renomear as variaveis
+2- linhas em branco
+  * remover linhas em branco
+3- comentários
+  * remover comentarios
+4 - Condições confusas ou complexas
+  * intoduzir cláusulas guarda
+  * consolidar condiçoes 
+  * utilização de regex
+5- tratamentos inadequado de erros
+  * tratar adquadamente
+6- variáveis declaradas longe da utilização
+  * mover variaveis
+7 - variável declarada em conjunto
+* separar variaveis
+
+8- variavel inicializada em conjunto
+* separar variaveis
